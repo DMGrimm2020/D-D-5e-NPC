@@ -3,7 +3,7 @@
     <monster>
         <name>Desert Dwarf Commoner</name>
         <size>M</size>
-        <type>humanoid (dwarf)</type>
+        <type>humanoid (desert dwarf)</type>
         <alignment>lawful good</alignment>
         <ac>10</ac>
         <hp>5 (1d8+1)</hp>
@@ -41,7 +41,7 @@
     <monster>
         <name>Desert Dwarf Bandit</name>
         <size>M</size>
-        <type>humanoid (dwarf)</type>
+        <type>humanoid (desert dwarf)</type>
         <alignment>neutral good</alignment>
         <ac>12 (leather armor)</ac>
         <hp>13 (2d8+4)</hp>
@@ -83,7 +83,7 @@
     <monster>
         <name>Desert Dwarf Bandit Captain</name>
         <size>M</size>
-        <type>humanoid (dwarf)</type>
+        <type>humanoid (desert dwarf)</type>
         <alignment>neutral good</alignment>
         <ac>15 (studded leather)</ac>
         <hp>75 (10d8+30)</hp>
@@ -136,7 +136,7 @@
     <monster>
         <name>Desert Dwarf Andras</name>
         <size>M</size>
-        <type>humanoid (dwarf)</type>
+        <type>humanoid (desert dwarf)</type>
         <alignment>lawful neutral</alignment>
         <ac>15 (studded leather armor)</ac>
         <hp>90 (12d8+36)</hp>
@@ -196,7 +196,7 @@
     <monster>
         <name>Desert Dwarf Acolyte</name>
         <size>M</size>
-        <type>humanoid (dwarf)</type>
+        <type>humanoid (desert dwarf)</type>
         <alignment>lawful good</alignment>
         <ac>10</ac>
         <hp>11 (2d8+2)</hp>
@@ -243,7 +243,7 @@
     <monster>
         <name>Desert Dwarf Abjurer</name>
         <size>M</size>
-        <type>humanoid (dwarf)</type>
+        <type>humanoid (desert dwarf)</type>
         <alignment>lawful good</alignment>
         <ac>12 (15 with mage armor)</ac>
         <hp>97 (13d8+39)</hp>
@@ -303,7 +303,7 @@
     <monster>
         <name>Desert Dwarven Worker</name>
         <size>M</size>
-        <type>humanoid (dwarf)</type>
+        <type>humanoid (desert dwarf)</type>
         <alignment>neutral good</alignment>
         <ac>12 (leather armor)</ac>
         <hp>11 (2d8+2)</hp>
