@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <compendium>
     
-    <!——CR 0—->
+    <!--CR 0-->
     
 	<monster id="2195AE54-EEEB-4288-BCD7-30A8B64A3496">
 		<name>Albino Dwarf Commoner</name>
@@ -44,7 +44,7 @@
 		</action>
 	</monster>
     
-    <!——CR 1/8—->
+    <!--CR 1/8-->
     
 	<monster id="F64D33C2-3AB1-44D6-B710-0CDACF0BFFDB">
 		<name>Albino Dwarf Bandit</name>
@@ -137,7 +137,7 @@
 		</action>
 	</monster>
     
-    <!——CR 1/4—->
+    <!--CR 1/4-->
     
 	<monster id="8AEFB15B-6BD8-4439-9B12-FD95C7F7952A">
 		<name>Albino Dwarf Acolyte</name>
@@ -233,7 +233,7 @@
 		</action>
 	</monster>
     
-    <!——CR 1—->
+    <!--CR 1-->
     
 	<monster id="C626220D-DF0C-44A6-B6FF-7CB9199DEE18">
 		<name>Albino Dwarf Spirit Warrior</name>
@@ -287,7 +287,7 @@
 		</action>
 	</monster>
     
-    <!——CR 2—->
+    <!--CR 2-->
     
 	<monster id="7166C45A-0D76-41CC-BE36-06AB230FC9F1">
 		<name>Albino Dwarf Bandit Captain</name>
@@ -346,7 +346,7 @@
 		</reaction>
 	</monster>
     
-    <!——CR 8—->
+    <!--CR 8-->
     
 	<monster id="846756D7-E16C-401B-83D7-DB2517D8C269">
 		<name>Albino Dwarf Andras</name>
@@ -413,7 +413,7 @@
 		</action>
 	</monster>
     
-    <!——CR 9—->
+    <!--CR 9-->
     
 	<monster id="DB7C8138-155C-4B7A-A571-98858F6CDFBD">
 		<name>Albino Dwarf Abjurer</name>
