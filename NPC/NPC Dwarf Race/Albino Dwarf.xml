@@ -91,6 +91,7 @@
 			<attack>|3|1d8+1</attack>
 		</action>
 	</monster>
+
 	<monster>
 		<name>Albino Dwarven Worker</name>
 		<slug>albino-dwarven-worker</slug>
@@ -187,6 +188,7 @@
 			<attack>Club|3|1d4+1</attack>
 		</action>
 	</monster>
+
 	<monster>
 		<name>Albino Dwarf Warrior</name>
 		<slug>albino-dwarf-warrior</slug>
@@ -476,4 +478,5 @@
 			<attack>Quarterstaff|4|1d6</attack>
 		</action>
 	</monster>
+
 </compendium>
