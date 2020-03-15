@@ -114,7 +114,7 @@
 		<passive>10</passive>
 		<languages>Common, Dwarvish</languages>
 		<cr>1/8</cr>
-		<environment>desert, urban</environment>
+		<environment>Desert, Urban</environment>
 		<trait>
 			<name>Dark Devotion</name>
 			<text>The worker has advantage on saving throws against being charmed or frightened.</text>
@@ -274,7 +274,7 @@
 		<languages>Dwarvish, Thieves&apos; cant, Plus any one language (Common)</languages>
 		<cr>8</cr>
 		<save>Dexterity +6, Intelligence +4</save>
-		<environment>desert, urban</environment>
+		<environment>Desert, Urban</environment>
 		<trait>
 			<name>Assassinate</name>
 			<text>During its first turn, Andras has advantage on attack rolls against any creature that hasn&apos;t taken a turn. Any hit Andras scores against a surprised creature is a critical hit.</text>
