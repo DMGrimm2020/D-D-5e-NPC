@@ -319,7 +319,7 @@
 
     <monster>
         <name>Dwarf Abjurer</name>
-		<slug>desert-dwarf-abjurer</slug>
+		<slug>dwarf-abjurer</slug>
         <size>M</size>
         <type>humanoid (dwarf)</type>
         <alignment>lawful good</alignment>
