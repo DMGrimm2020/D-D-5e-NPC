@@ -3,7 +3,7 @@
     
     <!--CR 0-->
     
-	<monster id="2195AE54-EEEB-4288-BCD7-30A8B64A3496">
+	<monster>
 		<name>Albino Dwarf Commoner</name>
 		<slug>albino-dwarf-commoner</slug>
 		<size>M</size>
@@ -46,7 +46,7 @@
     
     <!--CR 1/8-->
     
-	<monster id="F64D33C2-3AB1-44D6-B710-0CDACF0BFFDB">
+	<monster>
 		<name>Albino Dwarf Bandit</name>
 		<slug>albino-dwarf-bandit</slug>
 		<size>M</size>
@@ -91,7 +91,7 @@
 			<attack>|3|1d8+1</attack>
 		</action>
 	</monster>
-	<monster id="65016DC4-142E-4543-BB0F-8ADCDB4FD9C8">
+	<monster>
 		<name>Albino Dwarven Worker</name>
 		<slug>albino-dwarven-worker</slug>
 		<size>M</size>
@@ -139,7 +139,7 @@
     
     <!--CR 1/4-->
     
-	<monster id="8AEFB15B-6BD8-4439-9B12-FD95C7F7952A">
+	<monster>
 		<name>Albino Dwarf Acolyte</name>
 		<slug>albino-dwarf-acolyte</slug>
 		<size>M</size>
@@ -187,7 +187,7 @@
 			<attack>Club|3|1d4+1</attack>
 		</action>
 	</monster>
-	<monster id="370DD9C0-0738-4CFB-B829-3188C3D69036">
+	<monster>
 		<name>Albino Dwarf Warrior</name>
 		<slug>albino-dwarf-warrior</slug>
 		<size>M</size>
@@ -235,7 +235,7 @@
     
     <!--CR 1-->
     
-	<monster id="C626220D-DF0C-44A6-B6FF-7CB9199DEE18">
+	<monster>
 		<name>Albino Dwarf Spirit Warrior</name>
 		<slug>albino-dwarf-spirit-warrior</slug>
 		<size>M</size>
@@ -289,7 +289,7 @@
     
     <!--CR 2-->
     
-	<monster id="7166C45A-0D76-41CC-BE36-06AB230FC9F1">
+	<monster>
 		<name>Albino Dwarf Bandit Captain</name>
 		<slug>albino-dwarf-bandit-captain</slug>
 		<size>M</size>
@@ -348,7 +348,7 @@
     
     <!--CR 8-->
     
-	<monster id="846756D7-E16C-401B-83D7-DB2517D8C269">
+	<monster>
 		<name>Albino Dwarf Andras</name>
 		<slug>albino-dwarf-andras</slug>
 		<size>M</size>
@@ -415,7 +415,7 @@
     
     <!--CR 9-->
     
-	<monster id="DB7C8138-155C-4B7A-A571-98858F6CDFBD">
+	<monster>
 		<name>Albino Dwarf Abjurer</name>
 		<slug>albino-dwarf-abjurer</slug>
 		<size>M</size>
