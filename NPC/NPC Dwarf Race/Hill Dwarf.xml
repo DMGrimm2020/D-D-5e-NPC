@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<compendium>
+    
+    <!--CR 0-->
+    
     <monster>
         <name>Hill Dwarf Commoner</name>
+		<slug>hill-dwarf-commoner</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>lawful good</alignment>
-        <ac>10</ac>
+        <ac>10 (natuarl armor)</ac>
         <hp>5 (1d8+1)</hp>
         <speed>25 ft.</speed>
         <str>10</str>
@@ -14,11 +18,24 @@
         <int>10</int>
         <wis>11</wis>
         <cha>10</cha>
+		<role>enemy</role>
         <resist>poison</resist>
         <senses>darkvision 60 ft.</senses>
         <passive>10</passive>
         <languages>any one language (Common, Dwarvish)</languages>
         <cr>0</cr>
+        <environment>Hill, Urban</environment>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>
+Ideal: ""
+Bond: ""
+Flaw: ""</text>
+        </trait>
+        <trait>
+            <name>Special Equipment</name>
+            <text>Club</text>
+        </trait>
         <trait>
             <name>Dwarven Resilience</name>
             <text>The dwarf has advantage on saving throws against poison.</text>
@@ -36,10 +53,13 @@
             <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
             <attack>|2|1d4</attack>
         </action>
-        <environment>Hill, Urban</environment>
     </monster>
+
+    <!--CR 1/8-->
+
     <monster>
         <name>Hill Dwarf Bandit</name>
+		<slug>hill-dwarf-bandit</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>neutral good</alignment>
@@ -52,11 +72,24 @@
         <int>10</int>
         <wis>11</wis>
         <cha>10</cha>
+		<role>enemy</role>
         <resist>poison</resist>
         <senses>darkvison 60 ft.</senses>
         <passive>10</passive>
         <languages>any one language (Common, Dwarvish)</languages>
         <cr>1/8</cr>
+        <environment>Hill, Urban</environment>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>
+Ideal: ""
+Bond: ""
+Flaw: ""</text>
+        </trait>
+        <trait>
+            <name>Special Equipment</name>
+            <text>Light Crossbow, Quiver, 2d20 Bolts, Scimitar, Leather</text>
+        </trait>
         <trait>
             <name>Dwarven Resilience</name>
             <text>The dwarf has advantage on saving throws against poison.</text>
@@ -79,10 +112,132 @@
             <text>Ranged Weapon Attack: +3 to hit, range 80 ft./320 ft., one target. Hit: 5 (1d8+1) piercing damage.</text>
             <attack>|3|1d8+1</attack>
         </action>
-        <environment>Hill, Urban</environment>
     </monster>
+    
+    <monster>
+        <name>Hill Dwarven Worker</name>
+		<slug>hill-dwarven-worker</slug>
+        <size>M</size>
+        <type>humanoid (hill dwarf)</type>
+        <alignment>neutral good</alignment>
+        <ac>12 (leather armor)</ac>
+        <hp>11 (2d8+2)</hp>
+        <speed>25 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>12</wis>
+        <cha>10</cha>
+		<role>enemy</role>
+        <skill>Deception +2, Religion +2</skill>
+        <resist>poison</resist>
+        <senses>darkvision 60 ft.</senses>
+        <passive>11</passive>
+        <languages>Common, Dwarvish</languages>
+        <cr>1/8</cr>
+        <environment>Hill, Urban</environment>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>
+Ideal: ""
+Bond: ""
+Flaw: ""</text>
+        </trait>
+        <trait>
+            <name>Special Equipment</name>
+            <text>d2 Pick or Hammer, Leather</text>
+        </trait>
+        <trait>
+            <name>Dark Devotion</name>
+            <text>The worker has advantage on saving throws against being charmed or frightened.</text>
+        </trait>
+        <trait>
+            <name>Dwarven Resilience</name>
+            <text>The dwarf has advantage on saving throws against poison.</text>
+        </trait>
+        <trait>
+            <name>Stonecunning</name>
+            <text>The dwarf can make an Intelligence (History) +4 check related to the Origin of stonework.</text>
+        </trait>
+        <trait>
+            <name>Tool Proficiency</name>
+            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
+        </trait>
+        <action>
+            <name>Pick or Hammer (Scimitar)</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) piercing or bludgeoning damage.</text>
+            <attack>Pick or Hammer (Scimitar)|3|1d6+1</attack>
+        </action>
+    </monster>
+
+    <!--CR 1/4-->
+
+    <monster>
+        <name>Hill Dwarf Acolyte</name>
+		<slug>hill-dwarf-acolyte</slug>
+        <size>M</size>
+        <type>humanoid (hill dwarf)</type>
+        <alignment>lawful good</alignment>
+        <ac>10 (natuarl armor)</ac>
+        <hp>11 (2d8+2)</hp>
+        <speed>25 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>15</wis>
+        <cha>11</cha>
+		<role>enemy</role>
+        <skill>Medicine +4, Religion +2</skill>
+        <resist>poison</resist>
+        <senses>darkvison 60 ft.</senses>
+        <passive>12</passive>
+        <languages>any one language (Common, Dwarvish)</languages>
+        <cr>1/4</cr>
+        <spells>Light,Sacred Flame,Thaumaturgy,Bless,Cure Wounds,Sanctuary</spells>
+        <environment>Hill, Urban</environment>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>
+Ideal: ""
+Bond: ""
+Flaw: ""</text>
+        </trait>
+        <trait>
+            <name>Special Equipment</name>
+            <text>Holy Symbol, Club</text>
+        </trait>
+        <trait>
+            <name>Dwarven Resilience</name>
+            <text>The dwarf has advantage on saving throws against poison.</text>
+        </trait>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared: 
+• Cantrips (at will): light, sacred flame, thaumaturgy
+• 1st level (3 slots): bless, cure wounds, sanctuary</text>
+        </trait>
+        <trait>
+            <name>Stonecunning</name>
+            <text>The dwarf can make an Intelligence (History) +4 check related to the Origin of stonework.</text>
+        </trait>
+        <trait>
+            <name>Tool Proficiency</name>
+            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
+        </trait>
+        <action>
+            <name>Club</name>
+            <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
+            <attack>Club|2|1d4</attack>
+        </action>
+    </monster>
+
+    <!--CR 2-->
+
     <monster>
         <name>Hill Dwarf Bandit Captain</name>
+		<slug>hill-dwarf-bandit-captain</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>neutral good</alignment>
@@ -95,6 +250,7 @@
         <int>14</int>
         <wis>12</wis>
         <cha>14</cha>
+		<role>enemy</role>
         <save>Strength +4, Dexterity +5, Wisdom +3</save>
         <skill>Athletics +4, Deception +4</skill>
         <resist>poison</resist>
@@ -102,6 +258,19 @@
         <passive>11</passive>
         <languages>Dwarvish, Plus any one language (Common)</languages>
         <cr>2</cr>
+        <save>Strength +4, Dexterity +5, Wisdom +3</save>
+        <environment>Hill, Urban</environment>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>
+Ideal: ""
+Bond: ""
+Flaw: ""</text>
+        </trait>
+        <trait>
+            <name>Special Equipment</name>
+            <text>Scimitar, 2d4 Dagger, Studded Leather</text>
+        </trait>
         <trait>
             <name>Dwarven Resilience</name>
             <text>The dwarf has advantage on saving throws against poison.</text>
@@ -132,10 +301,13 @@
             <name>Parry</name>
             <text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</text>
         </reaction>
-        <environment>Hill, Urban</environment>
     </monster>
+    
+    <!--CR 8-->
+
     <monster>
         <name>Hill Dwarf Andras</name>
+		<slug>hill-dwarf-andras</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>lawful neutral</alignment>
@@ -148,13 +320,27 @@
         <int>13</int>
         <wis>12</wis>
         <cha>10</cha>
+		<role>enemy</role>
         <save>Dexterity +6, Intelligence +4</save>
         <skill>Acrobatics +6, Deception +3, Perception +4, Stealth +9</skill>
         <resist>poison</resist>
         <senses>darkvison 60 ft.</senses>
         <passive>14</passive>
-        <languages>Dwarvish, Thieves&#39; cant, Plus any one language (Common)</languages>
+        <languages>Dwarvish, Thieves&apos; cant, Plus any one language (Common)</languages>
         <cr>8</cr>
+        <save>Dexterity +6, Intelligence +4</save>
+        <environment>Hill, Urban</environment>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>
+Ideal: ""
+Bond: ""
+Flaw: ""</text>
+        </trait>
+        <trait>
+            <name>Special Equipment</name>
+            <text>Light Crossbow, Quiver, 2d20 Bolts, Shortsword, Studded Leather</text>
+        </trait>
         <trait>
             <name>Assassinate</name>
             <text>During its first turn, Andras has advantage on attack rolls against any creature that hasn&#39;t taken a turn. Any hit Andras scores against a surprised creature is a critical hit.</text>
@@ -193,57 +379,13 @@
             <text>Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Light Crossbow|6|1d8+3</attack>
         </action>
-        <environment>Hill, Urban</environment>
     </monster>
-    <monster>
-        <name>Hill Dwarf Acolyte</name>
-        <size>M</size>
-        <type>humanoid (hill dwarf)</type>
-        <alignment>lawful good</alignment>
-        <ac>10</ac>
-        <hp>11 (2d8+2)</hp>
-        <speed>25 ft.</speed>
-        <str>10</str>
-        <dex>10</dex>
-        <con>12</con>
-        <int>10</int>
-        <wis>15</wis>
-        <cha>11</cha>
-        <skill>Medicine +4, Religion +2</skill>
-        <resist>poison</resist>
-        <senses>darkvison 60 ft.</senses>
-        <passive>12</passive>
-        <languages>any one language (Common, Dwarvish)</languages>
-        <cr>1/4</cr>
-        <trait>
-            <name>Dwarven Resilience</name>
-            <text>The dwarf has advantage on saving throws against poison.</text>
-        </trait>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared: 
-                • Cantrips (at will): light, sacred flame, thaumaturgy
-                • 1st level (3 slots): bless, cure wounds, sanctuary</text>
-        </trait>
-        <trait>
-            <name>Stonecunning</name>
-            <text>The dwarf can make an Intelligence (History) +4 check related to the Origin of stonework.</text>
-        </trait>
-        <trait>
-            <name>Tool Proficiency</name>
-            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
-        </trait>
-        <action>
-            <name>Club</name>
-            <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
-            <attack>Club|2|1d4</attack>
-        </action>
-        <spells>Light,Sacred Flame,Thaumaturgy,Bless,Cure Wounds,Sanctuary</spells>
-        <slots>3,0,0,0,0,0,0,0,0,0,</slots>
-        <environment>Hill, Urban</environment>
-    </monster>
+    
+    <!--CR 9-->
+
     <monster>
         <name>Hill Dwarf Abjurer</name>
+		<slug>hill-dwarf-abjurer</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>lawful good</alignment>
@@ -256,6 +398,7 @@
         <int>18</int>
         <wis>13</wis>
         <cha>11</cha>
+		<role>enemy</role>
         <save>Intelligence +8, Wisdom +5</save>
         <skill>Arcana +8, History +8</skill>
         <resist>poison</resist>
@@ -263,6 +406,20 @@
         <passive>11</passive>
         <languages>Common, Dwarvish, Plus any two languages</languages>
         <cr>9</cr>
+        <spells>Mending,Message,Ray of Frost,Alarm,Mage Armor,Magic Missile,Shield,Arcane Lock,Invisibility,Counterspell,Dispel Magic,Fireball,Banishment,Stoneskin,Cone of Cold,Wall of Force,Flesh to Stone,Globe of Invulnerability</spells>
+        <save>Intelligence +8, Wisdom +5</save>
+        <environment>Hill, Urban</environment>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>
+Ideal: ""
+Bond: ""
+Flaw: ""</text>
+        </trait>
+        <trait>
+            <name>Special Equipment</name>
+            <text>Spellbook (Can. 5, 1st. 4, 2nd. 2, 3rd. 3, 4th. 2, 5th. 2, 6th. 2, 7th. 2), Quarterstaff</text>
+        </trait>
         <trait>
             <name>Arcane Ward</name>
             <text>The abjurer has a magical ward that has 30 hit points. Whenever the abjurer takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, the abjurer takes any remaining damage. When the abjurer casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.</text>
@@ -274,15 +431,15 @@
         <trait>
             <name>Spellcasting</name>
             <text>The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:    
-                • Cantrips (at will): blade ward. dancing lights, mending, message, ray of frost
-                • 1st level {4 slots): alarm*, mage armor, magic missile, shield*
-                • 2nd level (3 slots): arcane lock*, invisibility
-                • 3rd level (3 slots): counterspell*, dispel magic*, fireball
-                • 4th level (3 slots): banishment*, stoneskin*
-                • 5th level (2 slots): cone of cold, wall of force
-                • 6th level (1 slot): flesh to stone, globe of invulnerability*
-                • 7th level (1 slot): symbol* teleport   
-                *Abjuration spell of 1st level or higher</text>
+• Cantrips (at will): blade ward, dancing lights, mending, message, ray of frost
+• 1st level {4 slots): alarm*, mage armor, magic missile, shield*
+• 2nd level (3 slots): arcane lock*, invisibility
+• 3rd level (3 slots): counterspell*, dispel magic*, fireball
+• 4th level (3 slots): banishment*, stoneskin*
+• 5th level (2 slots): cone of cold, wall of force
+• 6th level (1 slot): flesh to stone, globe of invulnerability*
+• 7th level (1 slot): symbol*, teleport   
+*Abjuration spell of 1st level or higher</text>
         </trait>
         <trait>
             <name>Stonecunning</name>
@@ -296,53 +453,7 @@
             <name>Quarterstaff</name>
             <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</text>
             <attack>Quarterstaff|3|1d6-1</attack>
-            <attack>Two Handed|3|1d8-1</attack>
         </action>
-        <spells>Mending,Message,Ray of Frost,Alarm,Mage Armor,Magic Missile,Shield,Arcane Lock,Invisibility,Counterspell,Dispel Magic,Fireball,Banishment,Stoneskin,Cone of Cold,Wall of Force,Flesh to Stone,Globe of Invulnerability</spells>
-        <slots>4,3,3,3,2,1,1,0,0,0,</slots>
-        <environment>Hill, Urban</environment>
     </monster>
-    <monster>
-        <name>Hill Dwarven Worker</name>
-        <size>M</size>
-        <type>humanoid (hill dwarf)</type>
-        <alignment>neutral good</alignment>
-        <ac>12 (leather armor)</ac>
-        <hp>11 (2d8+2)</hp>
-        <speed>25 ft.</speed>
-        <str>11</str>
-        <dex>12</dex>
-        <con>12</con>
-        <int>10</int>
-        <wis>12</wis>
-        <cha>10</cha>
-        <skill>Deception +2, Religion +2</skill>
-        <resist>poison</resist>
-        <senses>darkvision 60 ft.</senses>
-        <passive>11</passive>
-        <languages>Common, Dwarvish</languages>
-        <cr>1/8</cr>
-        <trait>
-            <name>Dark Devotion</name>
-            <text>The worker has advantage on saving throws against being charmed or frightened.</text>
-        </trait>
-        <trait>
-            <name>Dwarven Resilience</name>
-            <text>The dwarf has advantage on saving throws against poison.</text>
-        </trait>
-        <trait>
-            <name>Stonecunning</name>
-            <text>The dwarf can make an Intelligence (History) +4 check related to the Origin of stonework.</text>
-        </trait>
-        <trait>
-            <name>Tool Proficiency</name>
-            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
-        </trait>
-        <action>
-            <name>Pick or Hammer (Scimitar)</name>
-            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) piercing or bludgeoning damage.</text>
-            <attack>Pick or Hammer (Scimitar)|3|1d6+1</attack>
-        </action>
-        <environment>Hill, Urban</environment>
-    </monster>
+
 </compendium>
