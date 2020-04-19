@@ -4,8 +4,8 @@
     <!--CR 0-->
     
     <monster>
-        <name>Gold Dwarf Commoner</name>
-		<slug>gold-dwarf-commoner</slug>
+        <name>Gold Dwarven Commoner</name>
+		<slug>gold-dwarven-commoner</slug>
         <size>M</size>
         <type>humanoid (gold dwarf)</type>
         <alignment>lawful good</alignment>
@@ -26,27 +26,8 @@
         <cr>0</cr>
         <environment>Mountain, Urban</environment>
         <trait>
-            <name>Roleplaying Information</name>
-            <text>
-Ideal: ""
-Bond: ""
-Flaw: ""</text>
-        </trait>
-        <trait>
-            <name>Special Equipment</name>
-            <text>Club</text>
-        </trait>
-        <trait>
             <name>Dwarven Resilience</name>
             <text>The dwarf has advantage on saving throws against poison.</text>
-        </trait>
-        <trait>
-            <name>Stonecunning</name>
-            <text>The dwarf can make an Intelligence (History) +4 check related to the Origin of stonework.</text>
-        </trait>
-        <trait>
-            <name>Tool Proficiency</name>
-            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
         </trait>
         <action>
             <name>Club</name>
@@ -58,8 +39,8 @@ Flaw: ""</text>
     <!--CR 1/8-->
 
     <monster>
-        <name>Gold Dwarf Bandit</name>
-		<slug>gold-dwarf-bandit</slug>
+        <name>Gold Dwarven Bandit</name>
+		<slug>gold-dwarven-bandit</slug>
         <size>M</size>
         <type>humanoid (gold dwarf)</type>
         <alignment>neutral good</alignment>
@@ -80,27 +61,8 @@ Flaw: ""</text>
         <cr>1/8</cr>
         <environment>Urban</environment>
         <trait>
-            <name>Roleplaying Information</name>
-            <text>
-Ideal: ""
-Bond: ""
-Flaw: ""</text>
-        </trait>
-        <trait>
-            <name>Special Equipment</name>
-            <text>Light Crossbow, Quiver, 2d20 Bolts, Scimitar, Leather</text>
-        </trait>
-        <trait>
             <name>Dwarven Resilience</name>
             <text>The dwarf has advantage on saving throws against poison.</text>
-        </trait>
-        <trait>
-            <name>Stonecunning</name>
-            <text>The dwarf can make an Intelligence (History) +4 check related to the Origin of stonework.</text>
-        </trait>
-        <trait>
-            <name>Tool Proficiency</name>
-            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
         </trait>
         <action>
             <name>Scimitar</name>
@@ -138,31 +100,12 @@ Flaw: ""</text>
         <cr>1/8</cr>
         <environment>Mountain, Urban</environment>
         <trait>
-            <name>Roleplaying Information</name>
-            <text>
-Ideal: ""
-Bond: ""
-Flaw: ""</text>
-        </trait>
-        <trait>
-            <name>Special Equipment</name>
-            <text>d2 Pick or Hammer, Leather</text>
-        </trait>
-        <trait>
             <name>Dark Devotion</name>
             <text>The worker has advantage on saving throws against being charmed or frightened.</text>
         </trait>
         <trait>
             <name>Dwarven Resilience</name>
             <text>The dwarf has advantage on saving throws against poison.</text>
-        </trait>
-        <trait>
-            <name>Stonecunning</name>
-            <text>The dwarf can make an Intelligence (History) +4 check related to the Origin of stonework.</text>
-        </trait>
-        <trait>
-            <name>Tool Proficiency</name>
-            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
         </trait>
         <action>
             <name>Pick or Hammer (Scimitar)</name>
@@ -174,8 +117,8 @@ Flaw: ""</text>
     <!--CR 1/4-->
 
     <monster>
-        <name>Gold Dwarf Acolyte</name>
-		<slug>gold-dwarf-acolyte</slug>
+        <name>Gold Dwarven Acolyte</name>
+		<slug>gold-dwarven-acolyte</slug>
         <size>M</size>
         <type>humanoid (gold dwarf)</type>
         <alignment>lawful good</alignment>
@@ -198,17 +141,6 @@ Flaw: ""</text>
         <spells>Light,Sacred Flame,Thaumaturgy,Bless,Cure Wounds,Sanctuary</spells>
         <environment>Mountain, Urban</environment>
         <trait>
-            <name>Roleplaying Information</name>
-            <text>
-Ideal: ""
-Bond: ""
-Flaw: ""</text>
-        </trait>
-        <trait>
-            <name>Special Equipment</name>
-            <text>Holy Symbol, Club</text>
-        </trait>
-        <trait>
             <name>Dwarven Resilience</name>
             <text>The dwarf has advantage on saving throws against poison.</text>
         </trait>
@@ -217,14 +149,6 @@ Flaw: ""</text>
             <text>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared: 
 • Cantrips (at will): light, sacred flame, thaumaturgy
 • 1st level (3 slots): bless, cure wounds, sanctuary</text>
-        </trait>
-        <trait>
-            <name>Stonecunning</name>
-            <text>The dwarf can make an Intelligence (History) +4 check related to the Origin of stonework.</text>
-        </trait>
-        <trait>
-            <name>Tool Proficiency</name>
-            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
         </trait>
         <action>
             <name>Club</name>
@@ -236,8 +160,8 @@ Flaw: ""</text>
     <!--CR 2-->
 
     <monster>
-        <name>Gold Dwarf Bandit Captain</name>
-		<slug>gold-dwarf-bandit-captain</slug>
+        <name>Gold Dwarven Bandit Captain</name>
+		<slug>gold-dwarven-bandit-captain</slug>
         <size>M</size>
         <type>humanoid (gold dwarf)</type>
         <alignment>neutral good</alignment>
@@ -261,27 +185,8 @@ Flaw: ""</text>
         <save>Strength +4, Dexterity +5, Wisdom +3</save>
         <environment>Urban</environment>
         <trait>
-            <name>Roleplaying Information</name>
-            <text>
-Ideal: ""
-Bond: ""
-Flaw: ""</text>
-        </trait>
-        <trait>
-            <name>Special Equipment</name>
-            <text>Scimitar, 2d4 Dagger, Studded Leather</text>
-        </trait>
-        <trait>
             <name>Dwarven Resilience</name>
             <text>The dwarf has advantage on saving throws against poison.</text>
-        </trait>
-        <trait>
-            <name>Stonecunning</name>
-            <text>The dwarf can make an Intelligence (History) +6 check related to the Origin of stonework.</text>
-        </trait>
-        <trait>
-            <name>Tool Proficiency</name>
-            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -306,8 +211,8 @@ Flaw: ""</text>
     <!--CR 8-->
 
     <monster>
-        <name>Gold Dwarf Andras</name>
-		<slug>gold-dwarf-andras</slug>
+        <name>Gold Dwarven Andras</name>
+		<slug>gold-dwarven-andras</slug>
         <size>M</size>
         <type>humanoid (gold dwarf)</type>
         <alignment>lawful neutral</alignment>
@@ -331,17 +236,6 @@ Flaw: ""</text>
         <save>Dexterity +6, Intelligence +4</save>
         <environment>Mountain, Urban</environment>
         <trait>
-            <name>Roleplaying Information</name>
-            <text>
-Ideal: ""
-Bond: ""
-Flaw: ""</text>
-        </trait>
-        <trait>
-            <name>Special Equipment</name>
-            <text>Light Crossbow, Quiver, 2d20 Bolts, Shortsword, Studded Leather</text>
-        </trait>
-        <trait>
             <name>Assassinate</name>
             <text>During its first turn, Andras has advantage on attack rolls against any creature that hasn&#39;t taken a turn. Any hit Andras scores against a surprised creature is a critical hit.</text>
         </trait>
@@ -356,14 +250,6 @@ Flaw: ""</text>
         <trait>
             <name>Sneak Attack (1/Turn)</name>
             <text>Andras deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Andras that isn&#39;t incapacitated and Andras doesn&#39;t have disadvantage on the attack roll.</text>
-        </trait>
-        <trait>
-            <name>Stonecunning</name>
-            <text>The dwarf can make an Intelligence (History) +5 check related to the Origin of stonework.</text>
-        </trait>
-        <trait>
-            <name>Tool Proficiency</name>
-            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -384,8 +270,8 @@ Flaw: ""</text>
     <!--CR 9-->
 
     <monster>
-        <name>Gold Dwarf Abjurer</name>
-		<slug>gold-dwarf-abjurer</slug>
+        <name>Gold Dwarven Abjurer</name>
+		<slug>gold-dwarven-abjurer</slug>
         <size>M</size>
         <type>humanoid (gold dwarf)</type>
         <alignment>lawful good</alignment>
@@ -410,17 +296,6 @@ Flaw: ""</text>
         <save>Intelligence +8, Wisdom +5</save>
         <environment>Mountain, Urban</environment>
         <trait>
-            <name>Roleplaying Information</name>
-            <text>
-Ideal: ""
-Bond: ""
-Flaw: ""</text>
-        </trait>
-        <trait>
-            <name>Special Equipment</name>
-            <text>Spellbook (Can. 5, 1st. 4, 2nd. 2, 3rd. 3, 4th. 2, 5th. 2, 6th. 2, 7th. 2), Quarterstaff</text>
-        </trait>
-        <trait>
             <name>Arcane Ward</name>
             <text>The abjurer has a magical ward that has 30 hit points. Whenever the abjurer takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, the abjurer takes any remaining damage. When the abjurer casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.</text></trait><trait><name>Dwarven Resilience</name><text>The dwarf has advantage on saving throws against poison.</text></trait><trait><name>Spellcasting</name><text>The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:
 • Cantrips (at will): blade ward, dancing lights, mending, message, ray of frost
@@ -432,14 +307,6 @@ Flaw: ""</text>
 • 6th level (1 slot): flesh to stone, globe of invulnerability*
 • 7th level (1 slot): symbol*, teleport
 *Abjuration spell of 1st level or higher</text>
-        </trait>
-        <trait>
-            <name>Stonecunning</name>
-            <text>The dwarf can make an Intelligence (History) +12 check related to the Origin of stonework.</text>
-        </trait>
-        <trait>
-            <name>Tool Proficiency</name>
-            <text>The dwarf gains proficiency with one artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</text>
         </trait>
         <action>
             <name>Quarterstaff</name>
