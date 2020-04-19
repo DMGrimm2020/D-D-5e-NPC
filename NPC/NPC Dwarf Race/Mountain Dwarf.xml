@@ -24,7 +24,7 @@
         <passive>10</passive>
         <languages>any one language (Common, Dwarvish)</languages>
         <cr>0</cr>
-        <environment>Mountain, Urban</environment>
+        <environment>Urban</environment>
         <trait>
             <name>Dwarven Resilience</name>
             <text>The dwarf has advantage on saving throws against poison.</text>
@@ -98,7 +98,7 @@
         <passive>10</passive>
         <languages>Common, Dwarvish</languages>
         <cr>1/8</cr>
-        <environment>Mountain, Urban</environment>
+        <environment>Urban</environment>
         <trait>
             <name>Dark Devotion</name>
             <text>The worker has advantage on saving throws against being charmed or frightened.</text>
@@ -139,7 +139,7 @@
         <languages>any one language (Common, Dwarvish)</languages>
         <cr>1/4</cr>
         <spells>Light,Sacred Flame,Thaumaturgy,Bless,Cure Wounds,Sanctuary</spells>
-        <environment>Mountain, Urban</environment>
+        <environment>Urban</environment>
         <trait>
             <name>Dwarven Resilience</name>
             <text>The dwarf has advantage on saving throws against poison.</text>
@@ -234,7 +234,7 @@
         <languages>Dwarvish, Thieves&#39; cant, Plus any one language (Common)</languages>
         <cr>8</cr>
         <save>Dexterity +6, Intelligence +4</save>
-        <environment>Mountain, Urban</environment>
+        <environment>Urban</environment>
         <trait>
             <name>Assassinate</name>
             <text>During its first turn, Andras has advantage on attack rolls against any creature that hasn&#39;t taken a turn. Any hit Andras scores against a surprised creature is a critical hit.</text>
@@ -294,7 +294,7 @@
         <cr>9</cr>
         <spells>Mending,Message,Ray of Frost,Alarm,Mage Armor,Magic Missile,Shield,Arcane Lock,Invisibility,Counterspell,Dispel Magic,Fireball,Banishment,Stoneskin,Cone of Cold,Wall of Force,Flesh to Stone,Globe of Invulnerability</spells>
         <save>Intelligence +8, Wisdom +5</save>
-        <environment>Mountain, Urban</environment>
+        <environment>Urban</environment>
         <trait>
             <name>Arcane Ward</name>
             <text>The abjurer has a magical ward that has 30 hit points. Whenever the abjurer takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, the abjurer takes any remaining damage. When the abjurer casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.</text>
