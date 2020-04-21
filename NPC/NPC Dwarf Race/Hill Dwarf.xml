@@ -5,7 +5,6 @@
     
     <monster>
         <name>Hill Dwarven Commoner</name>
-		<slug>hill-dwarven-commoner</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>lawful good</alignment>
@@ -40,7 +39,6 @@
 
     <monster>
         <name>Hill Dwarven Bandit</name>
-		<slug>hill-dwarven-bandit</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>neutral good</alignment>
@@ -78,7 +76,6 @@
     
     <monster>
         <name>Hill Dwarven Worker</name>
-		<slug>hill-dwarven-worker</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>neutral good</alignment>
@@ -118,7 +115,6 @@
 
     <monster>
         <name>Hill Dwarven Acolyte</name>
-		<slug>hill-dwarven-acolyte</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>lawful good</alignment>
@@ -161,7 +157,6 @@
 
     <monster>
         <name>Hill Dwarven Bandit Captain</name>
-		<slug>hill-dwarven-bandit-captain</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>neutral good</alignment>
@@ -175,14 +170,13 @@
         <wis>12</wis>
         <cha>14</cha>
 		<role>enemy</role>
-        <save>Strength +4, Dexterity +5, Wisdom +3</save>
+        <save>Str +4, Dex +5, Wis +3</save>
         <skill>Athletics +4, Deception +4</skill>
         <resist>poison</resist>
         <senses>darkvison 60 ft.</senses>
         <passive>11</passive>
         <languages>Dwarvish, Plus any one language (Common)</languages>
         <cr>2</cr>
-        <save>Strength +4, Dexterity +5, Wisdom +3</save>
         <environment>Hill, Urban</environment>
         <trait>
             <name>Dwarven Resilience</name>
@@ -212,7 +206,6 @@
 
     <monster>
         <name>Hill Dwarven Andras</name>
-		<slug>hill-dwarven-andras</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>lawful neutral</alignment>
@@ -226,14 +219,13 @@
         <wis>12</wis>
         <cha>10</cha>
 		<role>enemy</role>
-        <save>Dexterity +6, Intelligence +4</save>
+        <save>Dex +6, Int +4</save>
         <skill>Acrobatics +6, Deception +3, Perception +4, Stealth +9</skill>
         <resist>poison</resist>
         <senses>darkvison 60 ft.</senses>
         <passive>14</passive>
         <languages>Dwarvish, Thieves&apos; cant, Plus any one language (Common)</languages>
         <cr>8</cr>
-        <save>Dexterity +6, Intelligence +4</save>
         <environment>Urban</environment>
         <trait>
             <name>Assassinate</name>
@@ -271,7 +263,6 @@
 
     <monster>
         <name>Hill Dwarven Abjurer</name>
-		<slug>hill-dwarven-abjurer</slug>
         <size>M</size>
         <type>humanoid (hill dwarf)</type>
         <alignment>lawful good</alignment>
@@ -285,15 +276,13 @@
         <wis>13</wis>
         <cha>11</cha>
 		<role>enemy</role>
-        <save>Intelligence +8, Wisdom +5</save>
+        <save>Int +8, Wis +5</save>
         <skill>Arcana +8, History +8</skill>
         <resist>poison</resist>
         <senses>darkvision 60 ft.</senses>
         <passive>11</passive>
         <languages>Common, Dwarvish, Plus any two languages</languages>
         <cr>9</cr>
-        <spells>Mending,Message,Ray of Frost,Alarm,Mage Armor,Magic Missile,Shield,Arcane Lock,Invisibility,Counterspell,Dispel Magic,Fireball,Banishment,Stoneskin,Cone of Cold,Wall of Force,Flesh to Stone,Globe of Invulnerability</spells>
-        <save>Intelligence +8, Wisdom +5</save>
         <environment>Urban</environment>
         <trait>
             <name>Arcane Ward</name>
