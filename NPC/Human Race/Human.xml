@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    
+    <!--CR 8-->
+    
+    <monster>
+		<name>Human Andras</name>
+		<size>M</size>
+		<type>humanoid (human)</type>
+		<alignment>neutral evil</alignment>
+		<ac>15 (studded leather armor)</ac>
+		<hp>78 (12d8+24)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>13</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<save>Dex +6, Int +4</save>
+		<skill>Acrobatics +6, Deception +3, Perception +3, Stealth +9</skill>
+		<resist>poison</resist>
+		<passive>13</passive>
+		<languages>Common, Giant Owl</languages>
+		<cr>8</cr>
+		<environment>Urban</environment>
+        <trait>
+			<name>Source</name>
+			<text>Infernal Machine Rebuild, p. 31</text>
+		</trait>
+		<trait>
+			<name>Assassinate</name>
+			<text>During its first turn, Andras has advantage on attack rolls against any creature that hasn&apos;t taken a turn. Any hit Andras scores against a surprised creature is a critical hit.</text>
+		</trait>
+		<trait>
+			<name>Evasion</name>
+			<text>If Andras is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Andras instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
+		</trait>
+		<trait>
+			<name>Keen Hearing and Sight</name>
+			<text>The andras has advantage on Wisdom (Perception) checks that rely on hearing or sight.</text>
+		</trait>
+		<trait>
+			<name>Sneak Attack (1/Turn)</name>
+			<text>The andras deals an extra 13 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack||4d6</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Andras makes two shortsword attacks.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage, and if the target is a humanoid, it must make a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.</text>
+			<attack>Shortsword|6|1d6+3</attack>
+		</action>
+		<action>
+			<name>Light Crossbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. 7 (1d8 + 3) piercing damage, and if the target is a humanoid, it must make a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.</text>
+			<attack>Light Crossbow|6|1d8+3</attack>
+		</action>
+        <description>Conversing with Andras requires a successful DC 10 Wisdom (Insight) check or a speak with animals spell.</description>
+	</monster>
+
+</compendium>
