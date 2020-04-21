@@ -5,7 +5,6 @@
     
     <monster>
         <name>Mountain Dwarven Commoner</name>
-		<slug>mountain-dwarven-commoner</slug>
         <size>M</size>
         <type>humanoid (mountain dwarf)</type>
         <alignment>lawful good</alignment>
@@ -40,7 +39,6 @@
 
     <monster>
         <name>Mountain Dwarven Bandit</name>
-		<slug>mountain-dwarven-bandit</slug>
         <size>M</size>
         <type>humanoid (mountain dwarf)</type>
         <alignment>neutral good</alignment>
@@ -78,7 +76,6 @@
 
     <monster>
         <name>Mountain Dwarven Worker</name>
-		<slug>mountain-dwarven-worker</slug>
         <size>M</size>
         <type>humanoid (mountain dwarf)</type>
         <alignment>neutral</alignment>
@@ -118,7 +115,6 @@
 
     <monster>
         <name>Mountain Dwarven Acolyte</name>
-		<slug>mountain-dwarven-acolyte</slug>
         <size>M</size>
         <type>humanoid (mountain dwarf)</type>
         <alignment>lawful good</alignment>
@@ -161,7 +157,6 @@
 
     <monster>
         <name>Mountain Dwarven Bandit Captain</name>
-		<slug>mountain-dwarven-bandit-captain</slug>
         <size>M</size>
         <type>humanoid (mountain dwarf)</type>
         <alignment>neutral good</alignment>
@@ -175,14 +170,13 @@
         <wis>11</wis>
         <cha>14</cha>
 		<role>enemy</role>
-        <save>Strength +5, Dexterity +5, Wisdom +2</save>
+        <save>Str +5, Dex +5, Wis +2</save>
         <skill>Athletics +5, Deception +4</skill>
         <resist>poison</resist>
         <senses>darkvison 60 ft.</senses>
         <passive>10</passive>
         <languages>Dwarvish, Plus any one language (Common)</languages>
         <cr>2</cr>
-        <save>Strength +5, Dexterity +5, Wisdom +2</save>
         <environment>Urban</environment>
         <trait>
             <name>Dwarven Resilience</name>
@@ -212,7 +206,6 @@
     
     <monster>
         <name>Mountain Dwarven Andras</name>
-		<slug>mountain-dwarven-andras</slug>
         <size>M</size>
         <type>humanoid (mountain dwarf)</type>
         <alignment>lawful neutral</alignment>
@@ -226,14 +219,13 @@
         <wis>11</wis>
         <cha>10</cha>
 		<role>enemy</role>
-        <save>Dexterity +6, Intelligence +4</save>
+        <save>Dex +6, Int +4</save>
         <skill>Acrobatics +6, Deception +3, Perception +3, Stealth +9</skill>
         <resist>poison</resist>
         <senses>darkvison 60 ft.</senses>
         <passive>13</passive>
         <languages>Dwarvish, Thieves&#39; cant, Plus any one language (Common)</languages>
         <cr>8</cr>
-        <save>Dexterity +6, Intelligence +4</save>
         <environment>Urban</environment>
         <trait>
             <name>Assassinate</name>
@@ -271,7 +263,6 @@
 
     <monster>
         <name>Mountain Dwarven Abjurer</name>
-		<slug>mountain-dwarven-abjurer</slug>
         <size>M</size>
         <type>humanoid (mountain dwarf)</type>
         <alignment>lawful good</alignment>
@@ -285,15 +276,13 @@
         <wis>12</wis>
         <cha>11</cha>
 		<role>enemy</role>
-        <save>Intelligence +8, Wisdom +5</save>
+        <save>Int +8, Wis +5</save>
         <skill>Arcana +8, History +8</skill>
         <resist>poison</resist>
         <senses>darkvision 60 ft.</senses>
         <passive>11</passive>
         <languages>Common, Dwarvish, Plus any two languages</languages>
         <cr>9</cr>
-        <spells>Mending,Message,Ray of Frost,Alarm,Mage Armor,Magic Missile,Shield,Arcane Lock,Invisibility,Counterspell,Dispel Magic,Fireball,Banishment,Stoneskin,Cone of Cold,Wall of Force,Flesh to Stone,Globe of Invulnerability</spells>
-        <save>Intelligence +8, Wisdom +5</save>
         <environment>Urban</environment>
         <trait>
             <name>Arcane Ward</name>
