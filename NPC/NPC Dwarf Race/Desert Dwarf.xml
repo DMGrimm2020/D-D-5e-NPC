@@ -134,7 +134,6 @@
 		<passive>12</passive>
 		<languages>any one language (Common, Dwarvish)</languages>
 		<cr>1/4</cr>
-		<spells>Light,Sacred Flame,Thaumaturgy,Bless,Cure Wounds,Sanctuary</spells>
 		<environment>Urban</environment>
 		<trait>
 			<name>Dwarven Resilience</name>
