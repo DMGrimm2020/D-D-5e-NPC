@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    
+    <!--CR 0-->
+    
+    <monster>
+        <name>Commoner</name>
+        <size>M</size>
+        <type>humanoid (any race)</type>
+        <alignment>any alignment</alignment>
+        <ac>10 (natuarl armor)</ac>
+        <hp>4 (1d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+		<role>enemy</role>
+        <passive>10</passive>
+        <languages>any one language (usually Common)</languages>
+        <cr>0</cr>
+        <environment>Arctic, Coastal, Desert, Forest, Grassland, Hill, Urban</environment>
+        <trait>
+			<name>Source</name>
+			<text>Monster Manual, p. 345</text>
+		</trait>
+        <action>
+            <name>Club</name>
+            <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
+            <attack>|2|1d4</attack>
+        </action>
+		<description>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</description>
+	</monster>
+
+    <!--CR 1/8-->
+
+    <monster>
+        <name>Bandit</name>
+        <size>M</size>
+        <type>humanoid (any race)</type>
+        <alignment>any non-lawful alignment</alignment>
+        <ac>12 (leather armor)</ac>
+        <hp>11 (2d8+2)</hp>
+		<speed>30 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+		<role>enemy</role>
+        <passive>10</passive>
+        <languages>any one language (usually Common)</languages>
+        <cr>1/8</cr>
+        <environment>Arctic, Coastal, Desert, Forest, Hill, Urban</environment>
+        <trait>
+            <name>Source</name>
+			<text>Monster Manual, p. 343</text>
+        </trait>
+        <action>
+            <name>Scimitar</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) slashing damage.</text>
+            <attack>|3|1d6+1</attack>
+        </action>
+        <action>
+            <name>Light Crossbow</name>
+            <text>Ranged Weapon Attack: +3 to hit, range 80 ft./320 ft., one target. Hit: 5 (1d8+1) piercing damage.</text>
+            <attack>|3|1d8+1</attack>
+        </action>
+    </monster>
+
+    <monster>
+        <name>Worker</name>
+        <size>M</size>
+        <type>humanoid (any race)</type>
+        <alignment>neutral</alignment>
+        <ac>12 (leather armor)</ac>
+        <hp>9 (2d8)</hp>
+		<speed>30 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+		<role>enemy</role>
+        <skill>Deception +2, Religion +2</skill>
+        <passive>10</passive>
+        <languages>any one language (usually Common)</languages>
+        <cr>1/8</cr>
+        <environment>Urban</environment>
+        <trait>
+			<name>Source</name>
+			<text>Infernal Machine Rebuild, p. 15</text>
+		</trait>
+        <trait>
+            <name>Dark Devotion</name>
+            <text>The worker has advantage on saving throws against being charmed or frightened.</text>
+        </trait>
+        <action>
+            <name>Pick or Hammer (Scimitar)</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) piercing or bludgeoning damage.</text>
+            <attack>Pick or Hammer (Scimitar)|3|1d6+1</attack>
+        </action>
+    </monster>
+
+    <!--CR 1/4-->
+
+    <monster>
+        <name>Acolyte</name>
+        <size>M</size>
+        <type>humanoid (any race)</type>
+        <alignment>any alignment</alignment>
+        <ac>10 (natuarl armor)</ac>
+        <hp>9 (2d8)</hp>
+		<speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>14</wis>
+        <cha>11</cha>
+		<role>enemy</role>
+        <skill>Medicine +4. Religion +2</skill>
+        <passive>12</passive>
+        <languages>any one language (usually Common)</languages>
+        <cr>1/4</cr>
+        <environment>Urban</environment>
+        <trait>
+			<name>Source</name>
+			<text>Monster Manual, p. 342</text>
+		</trait>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared: 
+• Cantrips (at will): light, sacred flame, thaumaturgy
+• 1st level (3 slots): bless, cure wounds, sanctuary</text>
+        </trait>
+        <action>
+            <name>Club</name>
+            <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
+            <attack>Club|2|1d4</attack>
+        </action>
+		<description>Acolytes are junior members of the clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.</description>
+	</monster>
+
+    <!--CR 2-->
+
+    <monster>
+        <name>Bandit Captain</name>
+        <size>M</size>
+        <type>humanoid (any race)</type>
+        <alignment>any non-lawful alignment</alignment>
+        <ac>15 (studded leather)</ac>
+        <hp>65 (10d8+20)</hp>
+		<speed>30 ft.</speed>
+        <str>15</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>14</int>
+        <wis>11</wis>
+        <cha>14</cha>
+		<role>enemy</role>
+        <save>Str +4, Dex +5, Wis +2</save>
+        <skill>Athletics +4, Deception +4</skill>
+        <passive>10</passive>
+        <languages>any two languages</languages>
+        <cr>2</cr>
+        <environment>Arctic, Coastal, Desert, Forest, Hill, Urban</environment>
+        <trait>
+            <name>Source</name>
+			<text>Monster Manual, p. 344</text>
+		</trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.</text>
+        </action>
+        <action>
+            <name>Scimitar</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage.</text>
+            <attack>Scimitar|5|1d6+3</attack>
+        </action>
+        <action>
+            <name>Dagger</name>
+            <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage.</text>
+            <attack>Dagger|5|1d4+3</attack>
+        </action>
+        <reaction>
+            <name>Parry</name>
+            <text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</text>
+        </reaction>
+		<description>It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades. In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis. More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation.</description>
+	</monster>
+    
+    <!--CR 9-->
+
+    <monster>
+        <name>Abjurer</name>
+        <size>M</size>
+        <type>humanoid (any race)</type>
+        <alignment>any alignment</alignment>
+        <ac>12 (15 with mage armor)</ac>
+        <hp>84 (13d8+26)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>14</con>
+        <int>18</int>
+        <wis>12</wis>
+        <cha>11</cha>
+		<role>enemy</role>
+        <save>Int +8, Wis +5</save>
+        <skill>Arcana +8, History +8</skill>
+        <resist>poison</resist>
+        <senses>darkvision 60 ft.</senses>
+        <passive>11</passive>
+        <languages>any four languages</languages>
+        <cr>9</cr>
+        <environment>Urban</environment>
+        <trait>
+            <name>Source</name>
+			<text>Volo's Guide to Monsters, p. 209</text>
+		</trait>
+        <trait>
+            <name>Arcane Ward</name>
+            <text>The abjurer has a magical ward that has 30 hit points. Whenever the abjurer takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, the abjurer takes any remaining damage. When the abjurer casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.</text>
+        </trait>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:
+• Cantrips (at will): blade ward, dancing lights, mending, message, ray of frost
+• 1st level {4 slots): alarm*, mage armor, magic missile, shield*
+• 2nd level (3 slots): arcane lock*, invisibility
+• 3rd level (3 slots): counterspell*, dispel magic*, fireball
+• 4th level (3 slots): banishment*, stoneskin*
+• 5th level (2 slots): cone of cold, wall of force
+• 6th level (1 slot): flesh to stone, globe of invulnerability*
+• 7th level (1 slot): symbol*, teleport
+*Abjuration spell of 1st level or higher</text>
+        </trait>
+        <action>
+            <name>Quarterstaff</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</text>
+            <attack>Quarterstaff|3|1d6-1</attack>
+        </action>
+        <description>Abjurer are specialist wizards who feel secure when warded by layers of magical power. Kings, nobles, and other wealthy individuals commonly hire abjurers to cast protective spells on their homes and vaults.</description>
+	</monster>
+
+</compendium>
