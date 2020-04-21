@@ -29,7 +29,7 @@
         <action>
             <name>Club</name>
             <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
-            <attack>|2|1d4</attack>
+            <attack>Club|2|1d4</attack>
         </action>
 		<description>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</description>
 	</monster>
@@ -62,14 +62,49 @@
         <action>
             <name>Scimitar</name>
             <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) slashing damage.</text>
-            <attack>|3|1d6+1</attack>
+            <attack>Scimitar|3|1d6+1</attack>
         </action>
         <action>
             <name>Light Crossbow</name>
             <text>Ranged Weapon Attack: +3 to hit, range 80 ft./320 ft., one target. Hit: 5 (1d8+1) piercing damage.</text>
-            <attack>|3|1d8+1</attack>
+            <attack>Light Crossbow|3|1d8+1</attack>
         </action>
-    </monster>
+		<description>Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry. Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels.</description>
+	</monster>
+
+    <monster>
+		<name>Cultist</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<alignment>any non-good alignment</alignment>
+		<ac>12 (leather armor)</ac>
+		<hp>9 (2d8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>12</dex>
+		<con>10</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<skill>Deception +2, Religion +2</skill>
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1/8</cr>
+        <trait>
+            <name>Source</name>
+			<text>Monster Manual, p. 345</text>
+        </trait>
+		<trait>
+			<name>Dark Devotion</name>
+			<text>The cultist has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Scimitar|3|1d6+1</attack>
+		</action>
+		<description>Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices.</description>
+	</monster>
 
     <monster>
         <name>Worker</name>
