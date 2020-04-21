@@ -31,9 +31,10 @@
         <action>
             <name>Club</name>
             <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
-            <attack>|2|1d4</attack>
+            <attack>Club|2|1d4</attack>
         </action>
-    </monster>
+		<description>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</description>
+	</monster>
 
     <!--CR 1/8-->
 
@@ -65,14 +66,52 @@
         <action>
             <name>Scimitar</name>
             <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) slashing damage.</text>
-            <attack>|3|1d6+1</attack>
+            <attack>Scimitar|3|1d6+1</attack>
         </action>
         <action>
             <name>Light Crossbow</name>
             <text>Ranged Weapon Attack: +3 to hit, range 80 ft./320 ft., one target. Hit: 5 (1d8+1) piercing damage.</text>
-            <attack>|3|1d8+1</attack>
+            <attack>Light Crossbow|3|1d8+1</attack>
         </action>
-    </monster>
+		<description>Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry. Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels.</description>
+	</monster>
+
+    <monster>
+		<name>Dwarven Cultist</name>
+		<size>M</size>
+		<type>humanoid (dwarf)</type>
+		<alignment>lawful neutral</alignment>
+		<ac>12 (leather armor)</ac>
+		<hp>11 (2d8+2)</hp>
+		<speed>25 ft.</speed>
+		<str>11</str>
+		<dex>12</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<role>enemy</role>
+		<skill>Deception +2, Religion +2</skill>
+        <resist>poison</resist>
+        <senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>any one language (Common, Dwarvish)</languages>
+		<cr>1/8</cr>
+		<trait>
+			<name>Dark Devotion</name>
+			<text>The cultist has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
+        <trait>
+            <name>Dwarven Resilience</name>
+            <text>The dwarf has advantage on saving throws against poison.</text>
+        </trait>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Scimitar|3|1d6+1</attack>
+		</action>
+		<description>Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices.</description>
+	</monster>
 
     <monster>
         <name>Dwarven Worker</name>
@@ -150,7 +189,8 @@
             <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
             <attack>Club|2|1d4</attack>
         </action>
-    </monster>
+		<description>Acolytes are junior members of the clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.</description>
+	</monster>
 
     <!--CR 2-->
 
@@ -199,7 +239,8 @@
             <name>Parry</name>
             <text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</text>
         </reaction>
-    </monster>
+		<description>It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades. In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis. More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation.</description>
+	</monster>
     
     <!--CR 9-->
 
@@ -252,6 +293,7 @@
             <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</text>
             <attack>Quarterstaff|3|1d6-1</attack>
         </action>
-    </monster>
+        <description>Abjurer are specialist wizards who feel secure when warded by layers of magical power. Kings, nobles, and other wealthy individuals commonly hire abjurers to cast protective spells on their homes and vaults.</description>
+	</monster>
 
 </compendium>
