@@ -21,7 +21,7 @@
 		<resist>poison</resist>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
-		<languages>any one language (Common, Dwarvish)</languages>
+		<languages>Dwarvish</languages>
 		<cr>0</cr>
 		<environment>Desert, Urban</environment>
 		<trait>
@@ -56,7 +56,7 @@
 		<resist>poison</resist>
 		<senses>darkvison 60 ft.</senses>
 		<passive>10</passive>
-		<languages>any one language (Common, Dwarvish)</languages>
+		<languages>Dwarvish</languages>
 		<cr>1/8</cr>
 		<environment>Desert, Urban</environment>
 		<trait>
@@ -95,8 +95,9 @@
         <resist>poison</resist>
         <senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
-		<languages>any one language (Common, Dwarvish)</languages>
+		<languages>Dwarvish</languages>
 		<cr>1/8</cr>
+        <environment>Urban</environment>
 		<trait>
 			<name>Dark Devotion</name>
 			<text>The cultist has advantage on saving throws against being charmed or frightened.</text>
@@ -111,6 +112,41 @@
 			<attack>Scimitar|3|1d6+1</attack>
 		</action>
 		<description>Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices.</description>
+	</monster>
+
+	<monster>
+		<name>Dwarven Guard</name>
+		<size>M</size>
+		<type>humanoid (dwarf)</type>
+		<alignment>lawful good</alignment>
+		<ac>16 (chain shirt, shield)</ac>
+		<hp>13 (2d8+4)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<role>enemy</role>
+		<skill>Perception +2</skill>
+        <resist>poison</resist>
+        <senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Dwarvish</languages>
+		<cr>1/8</cr>
+        <environment>Desert, Urban</environment>
+        <trait>
+            <name>Dwarven Resilience</name>
+            <text>The dwarf has advantage on saving throws against poison.</text>
+        </trait>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear|3|1d6+1</attack>
+			<attack>Spear|3|1d8+1</attack>
+		</action>
+		<description>Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles.</description>
 	</monster>
 
 	<monster>
@@ -132,7 +168,7 @@
 		<resist>poison</resist>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
-		<languages>Common, Dwarvish</languages>
+		<languages>Dwarvish</languages>
 		<cr>1/8</cr>
 		<environment>Urban</environment>
 		<trait>
@@ -171,7 +207,7 @@
 		<resist>poison</resist>
 		<senses>darkvison 60 ft.</senses>
 		<passive>12</passive>
-		<languages>any one language (Common, Dwarvish)</languages>
+		<languages>Dwarvish</languages>
 		<cr>1/4</cr>
 		<environment>Urban</environment>
 		<trait>
@@ -214,7 +250,7 @@
 		<resist>poison</resist>
 		<senses>darkvison 60 ft.</senses>
 		<passive>10</passive>
-		<languages>Dwarvish, Plus any one language (Common)</languages>
+		<languages>Dwarvish, Plus any one language</languages>
 		<cr>2</cr>
 		<environment>Desert, Urban</environment>
 		<trait>
@@ -264,7 +300,7 @@
 		<resist>poison</resist>
 		<senses>darkvision 60 ft.</senses>
 		<passive>11</passive>
-		<languages>Common, Dwarvish, Plus any two languages</languages>
+		<languages>Dwarvish, Plus any three languages</languages>
 		<cr>9</cr>
 		<environment>Urban</environment>
 		<trait>
@@ -292,6 +328,7 @@
 			<name>Quarterstaff</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</text>
 			<attack>Quarterstaff|3|1d6-1</attack>
+            <attack>Quarterstaff|3|1d8-1</attack>
 		</action>
         <description>Abjurer are specialist wizards who feel secure when warded by layers of magical power. Kings, nobles, and other wealthy individuals commonly hire abjurers to cast protective spells on their homes and vaults.</description>
 	</monster>
