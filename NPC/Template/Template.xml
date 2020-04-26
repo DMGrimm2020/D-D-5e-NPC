@@ -19,7 +19,7 @@
         <cha>10</cha>
 		<role>enemy</role>
         <passive>10</passive>
-        <languages>any one language (usually Common)</languages>
+        <languages>any one language</languages>
         <cr>0</cr>
         <environment>Arctic, Coastal, Desert, Forest, Grassland, Hill, Urban</environment>
         <trait>
@@ -52,7 +52,7 @@
         <cha>10</cha>
 		<role>enemy</role>
         <passive>10</passive>
-        <languages>any one language (usually Common)</languages>
+        <languages>any one language</languages>
         <cr>1/8</cr>
         <environment>Arctic, Coastal, Desert, Forest, Hill, Urban</environment>
         <trait>
@@ -88,8 +88,9 @@
 		<cha>10</cha>
 		<skill>Deception +2, Religion +2</skill>
 		<passive>10</passive>
-		<languages>any one language (usually Common)</languages>
+		<languages>any one language</languages>
 		<cr>1/8</cr>
+        <environment>Urban</environment>
         <trait>
             <name>Source</name>
 			<text>Monster Manual, p. 345</text>
@@ -104,6 +105,38 @@
 			<attack>Scimitar|3|1d6+1</attack>
 		</action>
 		<description>Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices.</description>
+	</monster>
+
+	<monster>
+		<name>Guard</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<alignment>any alignment</alignment>
+		<ac>16 (chain shirt, shield)</ac>
+		<hp>11 (2d8+2)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>12</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<skill>Perception +2</skill>
+		<passive>12</passive>
+		<languages>any one language</languages>
+		<cr>1/8</cr>
+        <environment>Coastal, Desert, Forest, Grassland, Hill, Mountain, Urban</environment>
+        <trait>
+            <name>Source</name>
+			<text>Monster Manual, p. 347</text>
+        </trait>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear|3|1d6+1</attack>
+			<attack>Spear|3|1d8+1</attack>
+		</action>
+		<description>Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles.</description>
 	</monster>
 
     <monster>
@@ -123,7 +156,7 @@
 		<role>enemy</role>
         <skill>Deception +2, Religion +2</skill>
         <passive>10</passive>
-        <languages>any one language (usually Common)</languages>
+        <languages>any one language</languages>
         <cr>1/8</cr>
         <environment>Urban</environment>
         <trait>
@@ -160,7 +193,7 @@
 		<role>enemy</role>
         <skill>Medicine +4. Religion +2</skill>
         <passive>12</passive>
-        <languages>any one language (usually Common)</languages>
+        <languages>any one language</languages>
         <cr>1/4</cr>
         <environment>Urban</environment>
         <trait>
@@ -279,6 +312,7 @@
             <name>Quarterstaff</name>
             <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</text>
             <attack>Quarterstaff|3|1d6-1</attack>
+			<attack>Quarterstaff|3|1d8-1</attack>
         </action>
         <description>Abjurer are specialist wizards who feel secure when warded by layers of magical power. Kings, nobles, and other wealthy individuals commonly hire abjurers to cast protective spells on their homes and vaults.</description>
 	</monster>
