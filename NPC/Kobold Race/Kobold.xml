@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    
+    <!--CR 1/8-->
+    
+    <monster>
+		<name>Kobold</name>
+		<size>S</size>
+		<type>humanoid (kobold)</type>
+		<alignment>lawful evil</alignment>
+		<ac>12</ac>
+		<hp>5 (2d6-2)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>9</con>
+		<int>8</int>
+		<wis>7</wis>
+		<cha>8</cha>
+		<role>enemy</role>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>Draconic</languages>
+		<cr>1/8</cr>
+        <environment>Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban</environment>
+        <trait>
+			<name>Source</name>
+			<text>Monster Manual, p. 195</text>
+		</trait>
+        <trait>
+			<name>Grovel, Cower, and Beg (1/Day)</name>
+			<text>As an action on the kobold turn, the kobold can cower pathetically to distract nearby foes. Until the end of the kobold next turn, kobold's allies gain advantage on attack rolls against enemies within 10 feet of kobold that can see him.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Sling</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
+			<attack>Sling|4|1d4+2</attack>
+		</action>
+		<description>Kobold's are craven reptilian humanoids that commonly infest dungeons. They make up for their physical ineptitude with a cleverness for trap making.</description>
+	</monster>
+
+</compendium>
