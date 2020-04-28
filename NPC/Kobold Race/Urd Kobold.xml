@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    
+    <!--CR 1/4-->
+
+	<monster>
+		<name>Urd Kobold</name>
+		<size>S</size>
+		<type>humanoid (urd kobold)</type>
+		<alignment>lawful evil</alignment>
+		<ac>13</ac>
+		<hp>7 (3d6-3)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>7</str>
+		<dex>16</dex>
+		<con>9</con>
+		<int>8</int>
+		<wis>7</wis>
+		<cha>8</cha>
+		<role>enemy</role>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>Draconic</languages>
+		<cr>1/4</cr>
+        <environment>Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban</environment>
+        <trait>
+			<name>Source</name>
+			<text>Monster Manual, p. 195</text>
+		</trait>
+        <trait>
+			<name>Grovel, Cower, and Beg (1/Day)</name>
+			<text>As an action on the kobold turn, the kobold can cower pathetically to distract nearby foes. Until the end of the kobold next turn, kobold's allies gain advantage on attack rolls against enemies within 10 feet of kobold that can see him.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+		</action>
+		<action>
+			<name>Dropped Rock</name>
+			<text>Ranged Weapon Attack: +5 to hit, one target directly below the kobold. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+			<attack>Dropped Rock|5|1d6+3</attack>
+		</action>
+		<description>A few kobold's are born with leathery wings and can fly. Known as urds, they like to lurk on high ledges and drop rocks on passersby. Although the urds' wings are seen as gifts from Tiamat, the Dragon Queen, wingless kobold's are envious of those gifts and don't getalong with the urds.</description>
+	</monster>
+
+</compendium>
