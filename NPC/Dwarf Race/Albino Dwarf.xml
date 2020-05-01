@@ -150,6 +150,44 @@
 	</monster>
 
 	<monster>
+		<name>Albino Dwarven Noble</name>
+		<size>M</size>
+		<type>humanoid (albino dwarf)</type>
+		<alignment>neutral</alignment>
+		<ac>15 (breastplate)</ac>
+		<hp>11 (2d8+2)</hp>
+		<speed>25 ft.</speed>
+		<str>13</str>
+		<dex>12</dex>
+		<con>13</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>16</cha>
+		<role>enemy</role>
+		<skill>Deception +5, Insight +4, Persuasion +5</skill>
+        <resist>poison</resist>
+        <senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Dwarvish, Plus any one language</languages>
+		<cr>1/8</cr>
+        <environment>Urban</environment>
+        <trait>
+            <name>Dwarven Resilience</name>
+            <text>The dwarf has advantage on saving throws against poison.</text>
+        </trait>
+		<action>
+			<name>Rapier</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+			<attack>Rapier|3|1d8+1</attack>
+		</action>
+		<reaction>
+			<name>Parry</name>
+			<text>The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon.</text>
+		</reaction>
+		<description>Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners. The noble's statistics can also be used to represent courtiers who aren't of noble birth.</description>
+	</monster>
+
+	<monster>
 		<name>Albino Dwarven Worker</name>
 		<size>M</size>
 		<type>humanoid (albino dwarf)</type>
