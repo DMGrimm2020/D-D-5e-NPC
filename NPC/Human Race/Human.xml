@@ -17,6 +17,7 @@
 		<int>14</int>
 		<wis>12</wis>
 		<cha>11</cha>
+		<role>enemy</role>
 		<save>Dex +6, Int +5</save>
 		<skill>Acrobatics +6, Deception +3, Perception +4, Stealth +9</skill>
 		<resist>poison</resist>
