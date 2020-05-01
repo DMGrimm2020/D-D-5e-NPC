@@ -52,4 +52,47 @@
 		<description>Kobold's are craven reptilian humanoids that commonly infest dungeons. They make up for their physical ineptitude with a cleverness for trap making.</description>
 	</monster>
 
+    <monster>
+        <name>Kobold Worker</name>
+        <size>S</size>
+        <type>humanoid (kobold)</type>
+        <alignment>neutral</alignment>
+        <ac>13 (leather armor)</ac>
+        <hp>4 (2d6)</hp>
+		<speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+		<role>enemy</role>
+        <skill>Deception +2, Religion +2</skill>
+        <passive>10</passive>
+        <languages>Draconic</languages>
+        <cr>1/8</cr>
+        <environment>Urban</environment>
+        <trait>
+            <name>Dark Devotion</name>
+            <text>The kobold has advantage on saving throws against being charmed or frightened.</text>
+        </trait>
+        <trait>
+			<name>Grovel, Cower, and Beg (1/Day)</name>
+			<text>As an action on the kobold turn, the kobold can cower pathetically to distract nearby foes. Until the end of the kobold next turn, kobold's allies gain advantage on attack rolls against enemies within 10 feet of kobold that can see him.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+        <action>
+            <name>Pick or Hammer (Scimitar)</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) piercing or bludgeoning damage.</text>
+            <attack>Pick or Hammer (Scimitar)|4|1d6+2</attack>
+        </action>
+    </monster>
+
 </compendium>
