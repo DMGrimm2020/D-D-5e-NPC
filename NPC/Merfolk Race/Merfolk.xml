@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    
+    <!--CR 1/8-->
+    
+    <monster>
+		<name>Merfolk</name>
+		<size>M</size>
+		<type>humanoid (merfolk)</type>
+		<alignment>neutral</alignment>
+		<ac>11</ac>
+		<hp>11 (2d8+2)</hp>
+		<speed>10 ft., swim 40 ft.</speed>
+		<str>10</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>11</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<role>enemy</role>
+		<skill>Perception +2</skill>
+		<passive>12</passive>
+		<languages>Aquan</languages>
+		<cr>1/8</cr>
+        <environment>Coastal, Underwater, Urban</environment>
+        <trait>
+            <name>Source</name>
+			<text>Monster Manual, p. 218</text>
+        </trait>
+        <trait>
+			<name>Amphibious</name>
+			<text>The merfolk can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>|2|1d6</attack>
+		</action>
+        <description>Merfolk are aquatic humanoid's with the lower body of a fish. They live in small tribe's beneath the waves.</description>
+	</monster>
+
+	<monster>
+		<name>Merfolk Guard</name>
+		<size>M</size>
+		<type>humanoid (merfolk)</type>
+		<alignment>neutral</alignment>
+		<ac>16 (chain shirt, shield)</ac>
+		<hp>11 (2d8+2)</hp>
+		<speed>10 ft., swim 40 ft.</speed>
+		<str>13</str>
+		<dex>12</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<role>enemy</role>
+		<skill>Perception +2</skill>
+		<passive>12</passive>
+		<languages>Aquan</languages>
+		<cr>1/8</cr>
+        <environment>Coastal, Urban</environment>
+        <trait>
+			<name>Amphibious</name>
+			<text>The merfolk can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear|3|1d6+1</attack>
+			<attack>Spear|3|1d8+1</attack>
+		</action>
+		<description>Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles.</description>
+	</monster>
+
+	<monster>
+		<name>Merfolk Noble</name>
+		<size>M</size>
+		<type>humanoid (merfolk)</type>
+		<alignment>neutral</alignment>
+		<ac>15 (breastplate)</ac>
+		<hp>9 (2d8)</hp>
+		<speed>10 ft., swim 40 ft.</speed>
+		<str>11</str>
+		<dex>12</dex>
+		<con>11</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>16</cha>
+		<role>enemy</role>
+		<skill>Deception +5, Insight +4, Persuasion +5</skill>
+		<passive>12</passive>
+		<languages>Aquan, Plus any one language</languages>
+		<cr>1/8</cr>
+        <environment>Urban</environment>
+        <trait>
+            <name>Amphibious</name>
+			<text>The merfolk can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Rapier</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+			<attack>|3|1d8+1</attack>
+		</action>
+		<reaction>
+			<name>Parry</name>
+			<text>The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon.</text>
+		</reaction>
+		<description>Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners. The noble's statistics can also be used to represent courtiers who aren't of noble birth.</description>
+	</monster>
+
+    <monster>
+        <name>Merfolk Worker</name>
+        <size>M</size>
+        <type>humanoid (merfolk)</type>
+        <alignment>neutral</alignment>
+        <ac>12 (leather armor)</ac>
+        <hp>9 (2d8)</hp>
+		<speed>30 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+		<role>enemy</role>
+        <skill>Deception +2, Religion +2</skill>
+        <passive>10</passive>
+        <languages>Aquan</languages>
+        <cr>1/8</cr>
+        <environment>Urban</environment>
+        <trait>
+			<name>Amphibious</name>
+			<text>The merfolk can breathe air and water.</text>
+		</trait>
+        <trait>
+            <name>Dark Devotion</name>
+            <text>The worker has advantage on saving throws against being charmed or frightened.</text>
+        </trait>
+        <action>
+            <name>Pick or Hammer (Scimitar)</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) piercing or bludgeoning damage.</text>
+            <attack>Pick or Hammer (Scimitar)|3|1d6+1</attack>
+        </action>
+    </monster>
+
+</compendium>
