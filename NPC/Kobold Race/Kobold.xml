@@ -56,7 +56,7 @@
         <name>Kobold Worker</name>
         <size>S</size>
         <type>humanoid (kobold)</type>
-        <alignment>neutral</alignment>
+        <alignment>neutral evil</alignment>
         <ac>13 (leather armor)</ac>
         <hp>4 (2d6)</hp>
 		<speed>30 ft.</speed>
