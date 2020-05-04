@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    
+    <!--CR 1/8-->
+    
+    <monster>
+		<name>Sea Elven</name>
+		<size>M</size>
+		<type>humanoid (sea elf)</type>
+		<alignment>chaotic good</alignment>
+		<ac>12</ac>
+		<hp>11 (2d8+2)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>10</str>
+		<dex>15</dex>
+		<con>13</con>
+		<int>11</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<role>enemy</role>
+		<skill>Perception +2</skill>
+		<passive>12</passive>
+		<languages>Aquan, Elvish</languages>
+		<cr>1/8</cr>
+        <environment>Coastal, Underwater, Urban</environment>
+        <trait>
+            <name>Source</name>
+			<text>Storm King's Thunder, p. 70</text>
+        </trait>
+        <trait>
+			<name>Amphibious</name>
+			<text>The elf can breathe air and water.</text>
+		</trait>
+        <trait>
+			<name>Fey Ancestry</name>
+			<text>The elf has advantage on saving throws against being charmed, and magic can't put the elf to sleep.</text>
+		</trait>
+        <trait>
+			<name>Friend of the Sea</name>
+			<text>The elf can communicate simple ideas with any beast that has an innate swimming speed.</text>
+		</trait>
+        <trait>
+			<name>Keen Hearing and Sight</name>
+			<text>The elf has advantage on Wisdom (Perception) checks that rely on hearing or sight.</text>
+		</trait>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear|2|1d6</attack>
+			<attack>Spear|2|1d8</attack>
+		</action>
+        <description>Sea elves are a reclusive and deeply territorial people who have as much in common with merfolk as they do with other elves.</description>
+	</monster>
+
+    <monster>
+        <name>Sea Elven Worker</name>
+        <size>M</size>
+        <type>humanoid (sea elf)</type>
+        <alignment>neutral good</alignment>
+        <ac>13 (leather armor)</ac>
+        <hp>9 (2d8)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+		<role>enemy</role>
+        <skill>Deception +2, Religion +2</skill>
+        <passive>10</passive>
+        <languages>Aquan, Elvish</languages>
+        <cr>1/8</cr>
+        <environment>Urban</environment>
+        <trait>
+			<name>Amphibious</name>
+			<text>The elf can breathe air and water.</text>
+		</trait>
+        <trait>
+            <name>Dark Devotion</name>
+            <text>The elf has advantage on saving throws against being charmed or frightened.</text>
+        </trait>
+        <trait>
+			<name>Fey Ancestry</name>
+			<text>The elf has advantage on saving throws against being charmed, and magic can't put the elf to sleep.</text>
+		</trait>
+        <trait>
+			<name>Friend of the Sea</name>
+			<text>The elf can communicate simple ideas with any beast that has an innate swimming speed.</text>
+		</trait>
+        <trait>
+			<name>Keen Hearing and Sight</name>
+			<text>The elf has advantage on Wisdom (Perception) checks that rely on hearing or sight.</text>
+		</trait>
+        <action>
+            <name>Pick or Hammer (Scimitar)</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) piercing or bludgeoning damage.</text>
+            <attack>Pick or Hammer (Scimitar)|4|1d6+2</attack>
+        </action>
+    </monster>
+
+</compendium>
