@@ -100,7 +100,7 @@
         <environment>Urban</environment>
 		<trait>
 			<name>Dark Devotion</name>
-			<text>The cultist has advantage on saving throws against being charmed or frightened.</text>
+			<text>The dwarf has advantage on saving throws against being charmed or frightened.</text>
 		</trait>
         <trait>
             <name>Dwarven Resilience</name>
@@ -182,7 +182,7 @@
 		</action>
 		<reaction>
 			<name>Parry</name>
-			<text>The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon.</text>
+			<text>The dwarf adds 2 to its AC against one melee attack that would hit it. To do so, the dwarf must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 		<description>Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners. The noble's statistics can also be used to represent courtiers who aren't of noble birth.</description>
 	</monster>
@@ -211,7 +211,7 @@
 		<environment>Urban</environment>
 		<trait>
 			<name>Dark Devotion</name>
-			<text>The worker has advantage on saving throws against being charmed or frightened.</text>
+			<text>The dwarf has advantage on saving throws against being charmed or frightened.</text>
 		</trait>
 		<trait>
 			<name>Dwarven Resilience</name>
@@ -254,7 +254,7 @@
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
-			<text>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared: 
+			<text>The dwarf is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The dwarf has following cleric spells prepared: 
 • Cantrips (at will): light, sacred flame, thaumaturgy
 • 1st level (3 slots): bless, cure wounds, sanctuary</text>
 		</trait>
@@ -378,7 +378,7 @@
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.</text>
+			<text>The dwarf makes three melee attacks: two with its scimitar and one with its dagger. Or the dwarf makes two ranged attacks with its daggers.</text>
 		</action>
 		<action>
 			<name>Scimitar</name>
@@ -392,7 +392,7 @@
 		</action>
 		<reaction>
 			<name>Parry</name>
-			<text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</text>
+			<text>The dwarf adds 2 to its AC against one melee attack that would hit it. To do so, the dwarf must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 		<description>It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades. In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis. More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation.</description>
 	</monster>
@@ -424,7 +424,7 @@
 		<environment>Urban</environment>
 		<trait>
 			<name>Arcane Ward</name>
-			<text>The abjurer has a magical ward that has 30 hit points. Whenever the abjurer takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, the abjurer takes any remaining damage. When the abjurer casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.</text>
+			<text>The dwarf has a magical ward that has 30 hit points. Whenever the dwarf takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, the dwarf takes any remaining damage. When the dwarf casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.</text>
 		</trait>
 		<trait>
 			<name>Dwarven Resilience</name>
@@ -432,7 +432,7 @@
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
-			<text>The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:
+			<text>The dwarf is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The dwarf has the following wizard spells prepared:
 • Cantrips (at will): blade ward, dancing lights, mending, message, ray of frost
 • 1st level {4 slots): alarm*, mage armor, magic missile, shield*
 • 2nd level (3 slots): arcane lock*, invisibility
