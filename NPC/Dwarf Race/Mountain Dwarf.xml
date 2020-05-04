@@ -187,6 +187,44 @@
 		<description>Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners. The noble's statistics can also be used to represent courtiers who aren't of noble birth.</description>
 	</monster>
 
+	<monster>
+		<name>Mountain Dwarven Tribal Warrior</name>
+		<size>M</size>
+		<type>humanoid (mountain dwarf)</type>
+		<alignment>lawful good</alignment>
+		<ac>12 (hide armor)</ac>
+		<hp>13 (2d8+4)</hp>
+		<speed>25 ft.</speed>
+		<str>15</str>
+		<dex>11</dex>
+		<con>14</con>
+		<int>8</int>
+		<wis>11</wis>
+		<cha>8</cha>
+		<role>enemy</role>
+        <resist>poison</resist>
+        <senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Dwarvish</languages>
+		<cr>1/8</cr>
+        <environment>Mountain, Urban</environment>
+        <trait>
+			<name>Dwarven Resilience</name>
+            <text>The dwarf has advantage on saving throws against poison.</text>
+        </trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The dwarf has advantage on an attack roll against a creature if at least one of the dwarf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear|4|1d6+2</attack>
+			<attack>Spear|4|1d8+2</attack>
+		</action>
+		<description>Tribal warriors live beyond civilization, most often subsisting on fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest warrior of the tribe or a tribe member blessed by the gods.</description>
+	</monster>
+
     <monster>
         <name>Mountain Dwarven Worker</name>
         <size>M</size>
