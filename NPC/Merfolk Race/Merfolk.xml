@@ -34,7 +34,8 @@
 		<action>
 			<name>Spear</name>
 			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.</text>
-			<attack>|2|1d6</attack>
+			<attack>Spear|2|1d6</attack>
+			<attack>Spear|2|1d8</attack>
 		</action>
         <description>Merfolk are aquatic humanoid's with the lower body of a fish. They live in small tribe's beneath the waves.</description>
 	</monster>
@@ -103,7 +104,7 @@
 		</action>
 		<reaction>
 			<name>Parry</name>
-			<text>The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon.</text>
+			<text>The merfolk adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 		<description>Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners. The noble's statistics can also be used to represent courtiers who aren't of noble birth.</description>
 	</monster>
@@ -115,7 +116,7 @@
         <alignment>neutral</alignment>
         <ac>12 (leather armor)</ac>
         <hp>9 (2d8)</hp>
-		<speed>30 ft.</speed>
+		<speed>10 ft., swim 40 ft.</speed>
         <str>11</str>
         <dex>12</dex>
         <con>10</con>
@@ -134,7 +135,7 @@
 		</trait>
         <trait>
             <name>Dark Devotion</name>
-            <text>The worker has advantage on saving throws against being charmed or frightened.</text>
+            <text>The merfolk has advantage on saving throws against being charmed or frightened.</text>
         </trait>
         <action>
             <name>Pick or Hammer (Scimitar)</name>
