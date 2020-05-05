@@ -73,7 +73,7 @@
 		<cr>1/8</cr>
         <environment>Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban</environment>
         <trait>
-			<name>>Grovel, Cower, and Beg (1/Day)</name>
+			<name>Grovel, Cower, and Beg (1/Day)</name>
 			<text>As an action on the kobold turn, the kobold can cower pathetically to distract nearby foes. Until the end of the kobold next turn, kobold's allies gain advantage on attack rolls against enemies within 10 feet of kobold that can see him.</text>
 		</trait>
 		<trait>
@@ -109,6 +109,7 @@
         <cha>10</cha>
 		<role>enemy</role>
         <skill>Deception +2, Religion +2</skill>
+		<senses>darkvision 60 ft.</senses>
         <passive>10</passive>
         <languages>Draconic</languages>
         <cr>1/8</cr>
