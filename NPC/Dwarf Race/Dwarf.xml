@@ -54,7 +54,7 @@
         <cha>10</cha>
 		<role>enemy</role>
         <resist>poison</resist>
-        <senses>darkvison 60 ft.</senses>
+        <senses>darkvision 60 ft.</senses>
         <passive>10</passive>
         <languages>Dwarvish</languages>
         <cr>1/8</cr>
@@ -281,7 +281,7 @@
 		<role>enemy</role>
         <skill>Medicine +4. Religion +2</skill>
         <resist>poison</resist>
-        <senses>darkvison 60 ft.</senses>
+        <senses>darkvision 60 ft.</senses>
         <passive>12</passive>
         <languages>Dwarvish</languages>
         <cr>1/4</cr>
@@ -324,7 +324,7 @@
         <save>Str +4, Dex +5, Wis +2</save>
         <skill>Athletics +4, Deception +4</skill>
         <resist>poison</resist>
-        <senses>darkvison 60 ft.</senses>
+        <senses>darkvision 60 ft.</senses>
         <passive>10</passive>
         <languages>Dwarvish, Plus any one language</languages>
         <cr>2</cr>
