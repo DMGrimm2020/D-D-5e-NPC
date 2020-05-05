@@ -1,53 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     
-    <!--CR 1/8-->
-
-	<monster>
-		<name>Urd Kobold Tribal Warrior</name>
-		<size>S</size>
-		<type>humanoid (urd kobold)</type>
-		<alignment>lawful evil</alignment>
-		<ac>14 (hide armor)</ac>
-		<hp>9 (2d6+2)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>11</str>
-		<dex>14</dex>
-		<con>12</con>
-		<int>8</int>
-		<wis>11</wis>
-		<cha>8</cha>
-		<role>enemy</role>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Draconic</languages>
-		<cr>1/8</cr>
-        <environment>Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban</environment>
-        <trait>
-			<name>Flight</name>
-			<text>The kobold has flying speed of 30 feet. To use this speed, the kobold can’t be wearing medium or heavy armor.</text>
-		</trait>
-        <trait>
-			<name>Grovel, Cower, and Beg (1/Day)</name>
-			<text>As an action on the kobold turn, the kobold can cower pathetically to distract nearby foes. Until the end of the kobold next turn, kobold's allies gain advantage on attack rolls against enemies within 10 feet of kobold that can see him.</text>
-		</trait>
-		<trait>
-			<name>Pack Tactics</name>
-			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
-		</trait>
-		<trait>
-			<name>Sunlight Sensitivity</name>
-			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
-		</trait>
-		<action>
-			<name>Spear</name>
-			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.</text>
-			<attack>Spear|2|1d6</attack>
-			<attack>Spear|2|1d8</attack>
-		</action>
-		<description>Tribal warriors live beyond civilization, most often subsisting on fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest warrior of the tribe or a tribe member blessed by the gods.</description>
-	</monster>
-    
     <!--CR 1/4-->
 
 	<monster>
