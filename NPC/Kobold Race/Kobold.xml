@@ -140,7 +140,7 @@
     <!--CR 1-->
     
     <monster>
-		<name>Mod of Kobold</name>
+		<name>Mod of 2 Kobold</name>
 		<size>Medium mod of Small</size>
 		<type>humanoid (kobold)</type>
 		<alignment>lawful evil</alignment>
@@ -195,7 +195,7 @@
     <!--CR 6-->
     
     <monster>
-		<name>Mod of Kobold</name>
+		<name>Mod of 8 Kobold</name>
 		<size>Large mod of Small</size>
 		<type>humanoid (kobold)</type>
 		<alignment>lawful evil</alignment>
@@ -250,7 +250,7 @@
     <!--CR 15-->
     
     <monster>
-		<name>Mod of Kobold</name>
+		<name>Mod of 18 Kobold</name>
 		<size>Huge mod of Small</size>
 		<type>humanoid (kobold)</type>
 		<alignment>lawful evil</alignment>
@@ -305,7 +305,7 @@
     <!--CR 15-->
     
     <monster>
-		<name>Mod of Kobold</name>
+		<name>Mod of 32 Kobold</name>
 		<size>Gargantuan mod of Small</size>
 		<type>humanoid (kobold)</type>
 		<alignment>lawful evil</alignment>
