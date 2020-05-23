@@ -136,5 +136,225 @@
             <attack>Pick or Hammer (Scimitar)|4|1d6+2</attack>
         </action>
     </monster>
+    
+    <!--CR 1-->
+    
+    <monster>
+		<name>Mod of Kobold</name>
+		<size>Medium mod of Small</size>
+		<type>humanoid (kobold)</type>
+		<alignment>lawful evil</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>10 (4d6-4)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>9</con>
+		<int>8</int>
+		<wis>7</wis>
+		<cha>8</cha>
+		<role>enemy</role>
+        <resist>bludgeoning, piercing, slashing</resist>
+		<immune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</immune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>Draconic</languages>
+		<cr>1</cr>
+        <environment>Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban</environment>
+        <trait>
+			<name>Grovel, Cower, and Beg (1/Day)</name>
+			<text>As an action on the kobold turn, the kobold can cower pathetically to distract nearby foes. Until the end of the kobold next turn, kobold's allies gain advantage on attack rolls against enemies within 10 feet of kobold that can see him.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+        <trait>
+			<name>Swarm</name>
+			<text>The kobold's can occupy another creature's space and vice versa, and the kobold's can move through any opening large enough for a Small kobold. The kobold's can't regain hit points or gain temporary hit points.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the kobold's space. Hit: 9 (2d4 + 4) piercing damage, or 6 (1d4 + 4) piercing damage if the kobold's has half of its hit points or fewer.</text>
+			<attack>Dagger|4|2d4+4</attack>
+			<attack>Dagger|4|1d4+4</attack>
+		</action>
+		<action>
+			<name>Sling</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target in the kobold's space. Hit: 9 (2d4 + 4) bludgeoning damage, or 6 (1d4 + 4) bludgeoning damage if the kobold's has half of its hit points or fewer.</text>
+			<attack>Sling|4|2d4+4</attack>
+			<attack>Sling|4|1d4+4</attack>
+		</action>
+		<description>2 kobold's.</description>
+	</monster>
+    
+    <!--CR 6-->
+    
+    <monster>
+		<name>Mod of Kobold</name>
+		<size>Large mod of Small</size>
+		<type>humanoid (kobold)</type>
+		<alignment>lawful evil</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>40 (16d6-16)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>9</con>
+		<int>8</int>
+		<wis>7</wis>
+		<cha>8</cha>
+		<role>enemy</role>
+        <resist>bludgeoning, piercing, slashing</resist>
+		<immune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</immune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Draconic</languages>
+		<cr>6</cr>
+        <environment>Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban</environment>
+        <trait>
+			<name>Grovel, Cower, and Beg (1/Day)</name>
+			<text>As an action on the kobold turn, the kobold can cower pathetically to distract nearby foes. Until the end of the kobold next turn, kobold's allies gain advantage on attack rolls against enemies within 10 feet of kobold that can see him.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+        <trait>
+			<name>Swarm</name>
+			<text>The kobold's can occupy another creature's space and vice versa, and the kobold's can move through any opening large enough for a Small kobold. The kobold's can't regain hit points or gain temporary hit points.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the kobold's space. Hit: 36 (8d4 + 16) piercing damage, or 26 (4d4 + 16) piercing damage if the kobold's has half of its hit points or fewer.</text>
+			<attack>Dagger|5|8d4+16</attack>
+			<attack>Dagger|5|4d4+16</attack>
+		</action>
+		<action>
+			<name>Sling</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target in the kobold's space. Hit: 36 (8d4 + 16) bludgeoning damage, or 26 (4d4 + 16) bludgeoning damage if the kobold's has half of its hit points or fewer.</text>
+			<attack>Sling|5|8d4+16</attack>
+			<attack>Sling|5|4d4+16</attack>
+		</action>
+		<description>8 kobold's.</description>
+	</monster>
+    
+    <!--CR 15-->
+    
+    <monster>
+		<name>Mod of Kobold</name>
+		<size>Huge mod of Small</size>
+		<type>humanoid (kobold)</type>
+		<alignment>lawful evil</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>90 (36d6-36)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>9</con>
+		<int>8</int>
+		<wis>7</wis>
+		<cha>8</cha>
+		<role>enemy</role>
+        <resist>bludgeoning, piercing, slashing</resist>
+		<immune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</immune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Draconic</languages>
+		<cr>15</cr>
+        <environment>Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban</environment>
+        <trait>
+			<name>Grovel, Cower, and Beg (1/Day)</name>
+			<text>As an action on the kobold turn, the kobold can cower pathetically to distract nearby foes. Until the end of the kobold next turn, kobold's allies gain advantage on attack rolls against enemies within 10 feet of kobold that can see him.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+        <trait>
+			<name>Swarm</name>
+			<text>The kobold's can occupy another creature's space and vice versa, and the kobold's can move through any opening large enough for a Small kobold. The kobold's can't regain hit points or gain temporary hit points.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 0 ft., one target in the kobold's space. Hit: 81 (18d4 + 36) piercing damage, or 58 (9d4 + 36) piercing damage if the kobold's has half of its hit points or fewer.</text>
+			<attack>Dagger|7|18d4+36</attack>
+			<attack>Dagger|7|9d4+36</attack>
+		</action>
+		<action>
+			<name>Sling</name>
+			<text>Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target in the kobold's space. Hit: 81 (18d4 + 36) bludgeoning damage, or 58 (9d4 + 36) bludgeoning damage if the kobold's has half of its hit points or fewer.</text>
+			<attack>Sling|7|18d4+36</attack>
+			<attack>Sling|7|9d4+36</attack>
+		</action>
+		<description>18 kobold's.</description>
+	</monster>
+    
+    <!--CR 15-->
+    
+    <monster>
+		<name>Mod of Kobold</name>
+		<size>Gargantuan mod of Small</size>
+		<type>humanoid (kobold)</type>
+		<alignment>lawful evil</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>160 (64d6-64)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>9</con>
+		<int>8</int>
+		<wis>7</wis>
+		<cha>8</cha>
+		<role>enemy</role>
+        <resist>bludgeoning, piercing, slashing</resist>
+		<immune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</immune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>17</passive>
+		<languages>Draconic</languages>
+		<cr>22</cr>
+        <environment>Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban</environment>
+        <trait>
+			<name>Grovel, Cower, and Beg (1/Day)</name>
+			<text>As an action on the kobold turn, the kobold can cower pathetically to distract nearby foes. Until the end of the kobold next turn, kobold's allies gain advantage on attack rolls against enemies within 10 feet of kobold that can see him.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+        <trait>
+			<name>Swarm</name>
+			<text>The kobold's can occupy another creature's space and vice versa, and the kobold's can move through any opening large enough for a Small kobold. The kobold's can't regain hit points or gain temporary hit points.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 0 ft., one target in the kobold's space. Hit: 144 (32d4 + 64) piercing damage, or 104 (16d4 + 64) piercing damage if the kobold's has half of its hit points or fewer.</text>
+			<attack>Dagger|9|32d4+64</attack>
+			<attack>Dagger|9|16d4+64</attack>
+		</action>
+		<action>
+			<name>Sling</name>
+			<text>Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target in the kobold's space. Hit: 144 (32d4 + 64) bludgeoning damage, or 104 (16d4 + 64) bludgeoning damage if the kobold's has half of its hit points or fewer.</text>
+			<attack>Sling|9|32d4+64</attack>
+			<attack>Sling|9|16d4+64</attack>
+		</action>
+		<description>32 kobold's.</description>
+	</monster>
 
 </compendium>
